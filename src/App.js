@@ -1,25 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
+import Body from './Components/Body'
+import Sidebar from './Components/Sidebar/Sidebar';
+import { BrowserRouter, Route } from 'react-router-dom'
 import './App.css';
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="app">
+        <Route exact path={`${process.env.PUBLIC_URL}/`}>
+          <Sidebar home={true} contact={false} works={false} team={false}/>     
+          <Body/>
+        </Route>
+        <Route path={`${process.env.PUBLIC_URL}/HOME`}>
+          <Sidebar home={true} contact={false} works={false} team={false}/>     
+          <Body/>
+        </Route>
+        <Route path={`${process.env.PUBLIC_URL}/WORKS`}>
+          <Sidebar home={false} contact={false} works={true} team={false}/>     
+          <Body/>
+        </Route>
+        <Route path={`${process.env.PUBLIC_URL}/TEAM`}>
+          <Sidebar home={false} contact={false} works={false} team={true}/>     
+          <Body/>
+        </Route>
+        <Route path={`${process.env.PUBLIC_URL}/CONTACT`}>
+          <Sidebar home={false} contact={true} works={false} team={false}/>     
+          <Body/>
+        </Route>
+        </div>
+    </BrowserRouter>
   );
 }
 
