@@ -1,26 +1,32 @@
 {
   "files": {
-    "main.css": "/Epoch-Zero-Website/static/css/main.01159c72.chunk.css",
-    "main.js": "/Epoch-Zero-Website/static/js/main.4d074b23.chunk.js",
-    "main.js.map": "/Epoch-Zero-Website/static/js/main.4d074b23.chunk.js.map",
+    "main.css": "/Epoch-Zero-Website/static/css/main.69150371.chunk.css",
+    "main.js": "/Epoch-Zero-Website/static/js/main.a46a4444.chunk.js",
+    "main.js.map": "/Epoch-Zero-Website/static/js/main.a46a4444.chunk.js.map",
     "runtime-main.js": "/Epoch-Zero-Website/static/js/runtime-main.ab6a90b7.js",
     "runtime-main.js.map": "/Epoch-Zero-Website/static/js/runtime-main.ab6a90b7.js.map",
-    "static/js/2.1151de9a.chunk.js": "/Epoch-Zero-Website/static/js/2.1151de9a.chunk.js",
-    "static/js/2.1151de9a.chunk.js.map": "/Epoch-Zero-Website/static/js/2.1151de9a.chunk.js.map",
+    "static/js/2.a9d69b4d.chunk.js": "/Epoch-Zero-Website/static/js/2.a9d69b4d.chunk.js",
+    "static/js/2.a9d69b4d.chunk.js.map": "/Epoch-Zero-Website/static/js/2.a9d69b4d.chunk.js.map",
     "index.html": "/Epoch-Zero-Website/index.html",
-    "precache-manifest.d33cee86a3c37d2739ace33b4115a7b3.js": "/Epoch-Zero-Website/precache-manifest.d33cee86a3c37d2739ace33b4115a7b3.js",
+    "precache-manifest.c8db21a72e8310fc76ba36670ac28f24.js": "/Epoch-Zero-Website/precache-manifest.c8db21a72e8310fc76ba36670ac28f24.js",
     "service-worker.js": "/Epoch-Zero-Website/service-worker.js",
-    "static/css/main.01159c72.chunk.css.map": "/Epoch-Zero-Website/static/css/main.01159c72.chunk.css.map",
-    "static/js/2.1151de9a.chunk.js.LICENSE.txt": "/Epoch-Zero-Website/static/js/2.1151de9a.chunk.js.LICENSE.txt",
-    "static/media/Body.css": "/Epoch-Zero-Website/static/media/ProBG.1bb919cb.jpg",
-    "static/media/EstudoWork.png": "/Epoch-Zero-Website/static/media/EstudoWork.05003627.png",
-    "static/media/RasavadaWork.png": "/Epoch-Zero-Website/static/media/RasavadaWork.ff457974.png",
-    "static/media/XotoWork.png": "/Epoch-Zero-Website/static/media/XotoWork.cc5239a8.png"
+    "static/css/main.69150371.chunk.css.map": "/Epoch-Zero-Website/static/css/main.69150371.chunk.css.map",
+    "static/js/2.a9d69b4d.chunk.js.LICENSE.txt": "/Epoch-Zero-Website/static/js/2.a9d69b4d.chunk.js.LICENSE.txt",
+    "static/media/Estudo1.png": "/Epoch-Zero-Website/static/media/Estudo1.8c8e5b87.png",
+    "static/media/Estudo2.png": "/Epoch-Zero-Website/static/media/Estudo2.70e2535a.png",
+    "static/media/EstudoWork.png": "/Epoch-Zero-Website/static/media/EstudoWork.e29bd850.png",
+    "static/media/LearnE1.png": "/Epoch-Zero-Website/static/media/LearnE1.6e91d6da.png",
+    "static/media/LearnE2.png": "/Epoch-Zero-Website/static/media/LearnE2.82ccf4d6.png",
+    "static/media/LearnEWork.png": "/Epoch-Zero-Website/static/media/LearnEWork.bea1b384.png",
+    "static/media/Body.css": "/Epoch-Zero-Website/static/media/antimony.d1ba35a3.svg",
+    "static/media/Xoto1.png": "/Epoch-Zero-Website/static/media/Xoto1.db38fd8a.png",
+    "static/media/Xoto2.png": "/Epoch-Zero-Website/static/media/Xoto2.41cca4e3.png",
+    "static/media/XotoWork.png": "/Epoch-Zero-Website/static/media/XotoWork.7beb0c67.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ab6a90b7.js",
-    "static/js/2.1151de9a.chunk.js",
-    "static/css/main.01159c72.chunk.css",
-    "static/js/main.4d074b23.chunk.js"
+    "static/js/2.a9d69b4d.chunk.js",
+    "static/css/main.69150371.chunk.css",
+    "static/js/main.a46a4444.chunk.js"
   ]
 }
