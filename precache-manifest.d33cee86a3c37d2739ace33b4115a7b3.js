@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4ac7b36d15df492b2de70ab8e7b5b544",
+    "revision": "afee06d9a3d96311f8eac2708925deaa",
     "url": "/Epoch-Zero-Website/index.html"
   },
   {
-    "revision": "b5272e1e0bb2b6e92c54",
+    "revision": "4419ef92e5805bf455a3",
     "url": "/Epoch-Zero-Website/static/css/main.01159c72.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Epoch-Zero-Website/static/js/2.1151de9a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b5272e1e0bb2b6e92c54",
-    "url": "/Epoch-Zero-Website/static/js/main.b55570ed.chunk.js"
+    "revision": "4419ef92e5805bf455a3",
+    "url": "/Epoch-Zero-Website/static/js/main.4d074b23.chunk.js"
   },
   {
     "revision": "f8ab98a38de749d70995",

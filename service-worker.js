@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Epoch-Zero-Website/precache-manifest.dbb2f94455c7ea6722187b16f100d8bf.js"
+  "/Epoch-Zero-Website/precache-manifest.d33cee86a3c37d2739ace33b4115a7b3.js"
 );
 
 self.addEventListener('message', (event) => {
