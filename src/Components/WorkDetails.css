@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.workDetails{
+    background-color: #6823ff;
+    display: flex;
+    font-family: Inter;
+    flex: 1;
+    line-height: 1.8rem;
+    color:white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+.workContainer > h1{
+    margin-bottom: 5px;
+    font-weight: 800;
+}
+
+.workContainer > hr{
+    opacity: 0.35;
+    background: none;
+    border-color: white;
+    height:1px;
+}
+
+.workContainer > h3{
+    font-weight: 800;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.workContainer > p{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.imageContainer{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.displayImage{
+    color: white;
+    font-size: 15px;
+}
+
+.appImage:hover{
+    z-index:200;
+    box-shadow: 0px 0px 40px 0 rgb(0,0,0,0.25);
+}
+    @media (min-width: 800px) {
+    
+    .imageContainer { grid-template-columns: repeat(2, 1fr); }
+    
+    }
+    
+    @media (min-width: 1200px) {
+    .imageContainer { grid-template-columns: repeat(2, 1fr); }
+    
+    }

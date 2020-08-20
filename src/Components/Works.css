@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.works{
+    display: flex;
+    flex: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+}
+
+.worksContainer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 0 auto;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.imageWork{
+    width: 100%;
+    box-shadow: 0px 0px 40px 0 rgb(0,0,0,0.25);
+}
+
+.spacing{
+    flex:0.15;
+}
+
+
+@media (min-width: 450px) {
+
+    .worksContainer { grid-template-columns: repeat(2, 1fr);}
+    }
+    
+    @media (min-width: 800px) {
+    
+    .worksContainer { grid-template-columns: repeat(3, 1fr); }
+    }
+    
+    @media (min-width: 1200px) {
+    .worksContainer { grid-template-columns: repeat(3, 1fr); }
+    }
